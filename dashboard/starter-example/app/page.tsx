@@ -4,6 +4,11 @@ import Link from 'next/link';
 import styles from '@/app/ui/home.module.css';
 import { inter, lusitana } from '@/app/ui/fonts';
 import Image from 'next/image';
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'Login',
+};
 
 export default function Page() {
   return (
